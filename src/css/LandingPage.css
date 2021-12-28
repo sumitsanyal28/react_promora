@@ -60,9 +60,17 @@ input{
     position: relative;
    
 }
+.sidebar img{
+    
+    position: relative;
+    left: 400px;
+    top: -200px;
+    width: 500px;
+    height: 500px;
+}
 .search .fa-search {
     position: absolute;
-    left: 65%;
+    left: 10%;
     width: 100%;
     /* border: auto solid rgb(47, 152, 212); */
     /* display: flex; */

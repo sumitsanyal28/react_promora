@@ -37,6 +37,9 @@ function LandingPage() {
           <input type="text" name="box" placeholder="Search Schools" />
           <a className="sbtn" href="#"><i class="fas fa-search" style={{ fontSize: 30 }}></i></a>
         </div>
+        <div className='sidebar'>
+        <img src="./images/side-image.png"></img>
+        </div>
 
       </header>
 
