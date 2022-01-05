@@ -13,7 +13,7 @@ function ContactPage() {
 							<h2>Contact Info</h2>
 							<ul class="info">
 								<li>
-									<span><img src="../images/add.png" alt="lication"></img></span>
+									<span><img src="../images/add.png" alt="location"></img></span>
 									<span>Admin Update</span>
 								</li>
 								<li>
@@ -59,19 +59,19 @@ function ContactPage() {
 						<h2>Share Your Contact Details</h2>
 						<div class="formBox">
 							<div class="inputBox w50">
-								<input type="text" maxlength="25" required>
+								<input type="text" maxlength="25" color="blue" placeholder="First Name"  required >
 								</input>
 							</div>
 							<div class="inputBox w50">
-								<input type="text" maxlength="25" required>
+								<input type="text" maxlength="25" placeholder="Last Name" required>
 								</input>
 							</div>
 							<div class="inputBox w50">
-								<input type="email" maxlength="30" required>
+								<input type="email" maxlength="30" placeholder="Email Address" required>
 								</input>
 							</div>
 							<div class="inputBox w50">
-								<input type="tel" minlength="10" required>
+								<input type="tel" minlength="10" placeholder="Mobile Number" required>
 								</input>
 							</div>
 							<div class="inputBox w100">

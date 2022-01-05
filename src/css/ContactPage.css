@@ -51,7 +51,7 @@ section::before{
 
 .container .ContactInfo h2{
     /*color: wheat;*/
-    color: #201e96;
+    color: #0A61AE;;
     font-size: 24px;
     font-weight: 500;
 }
@@ -80,7 +80,7 @@ section::before{
     
 }
 .container .ContactInfo ul.info li span:nth-child(2){
-    color: rgb(14, 52, 133);
+    color: #0A61AE;;
     /*color: #6411ad;*/
     margin-left: 10px;
     font-weight: 300;
@@ -140,7 +140,7 @@ section::before{
 }
 
 .container .ContactForm h2{
-    color: rgb(14, 52, 133);
+    color: #0A61AE;;
     font-size: 24px;
     font-weight: 600;
 }
@@ -173,7 +173,7 @@ section::before{
     padding: 5px 0;
     font-size: 18px;
     font-weight: 300;
-    color: rgb(14, 52, 133);
+    color: #0A61AE;
     border: none;
     background: transparent;
     outline: none;
@@ -183,6 +183,7 @@ section::before{
 .container .ContactForm .formBox .inputBox textarea{
     margin-top: 100px;
     height: 40px;
+    color: #0A61AE;;
 }
 .container .ContactForm .formBox .inputBox span{
     position: absolute;
@@ -192,7 +193,7 @@ section::before{
     font-size: 18px;
     font-weight: 300;
     transition: 0.3s;
-    color: #2b1991;
+    color: #0A61AE;
 }
 
 .container .ContactForm .formBox .inputBox input:focus ~ span,
