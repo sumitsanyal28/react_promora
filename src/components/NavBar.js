@@ -3,7 +3,7 @@ import React from 'react';
 import './../css/NavBar.css';
 
 import {connect} from 'react-redux';
-import { navigateContactPage, navigateAboutPage, navigateHomePage } from '../redux';
+import { navigateContactPage, navigateAboutPage, navigateHomePage, navigateSchool } from '../redux';
 
 function NavBar(props) {
     return (
@@ -16,7 +16,7 @@ function NavBar(props) {
                 <a className="block" href="#"><button>Login</button></a>
                 <a onClick={props.navigateContactPage} href="#">Contact Us</a>
                 <a onClick={props.navigateAboutPage} href="#">About Us</a>
-                <a href="#">Schools </a>
+                <a onClick={props.navigateSchool} href="#">Schools </a>
                 <a onClick={props.navigateHomePage} href="#">Home</a>
                 <a className='pro' img src='./images/promoralogo.png'width={30} height={30} href='#'></a>
                 
@@ -39,7 +39,8 @@ const mapStateToProps=state=>{
     return{
       navigateHomePage:()=>dispatch(navigateHomePage()),
       navigateContactPage:()=> dispatch(navigateContactPage()),
-      navigateAboutPage:() => dispatch(navigateAboutPage())
+      navigateAboutPage:() => dispatch(navigateAboutPage()),
+      navigateSchool:() => dispatch(navigateSchool())
     }
   }
 

@@ -1,12 +1,16 @@
 import React from "react";
 import NavBar from "./NavBar";
-
+import HomeBar from "./HomeBar";
+import SideNavBar from "./SideNavBar";
 import './../css/AboutPage.css';
+
 
 function AboutPage() {
     return (
         <div className="nav">
             <NavBar />
+            
+            
 
             <header>
                 <h1><u>About us</u></h1>
@@ -66,6 +70,7 @@ function AboutPage() {
                 </div>
 
             </header>
+            
 
         </div>
 

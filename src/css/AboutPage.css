@@ -17,18 +17,18 @@ h1{
     left: 680px;
     top: 25px;
 } 
-
 .cont1{
     position: absolute;
     padding: 25px 15px;
     width: 50%;
     height: 180px;
-    left: 570px;
-    top: 100px;
+    left: 560px;
+    top: 110px;
 
     background: #CBDFF1;
     border-radius: 20px;
 }
+
 .cont2{
     position: absolute;
     padding: 30px 20px;

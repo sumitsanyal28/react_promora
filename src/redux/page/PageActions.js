@@ -1,4 +1,4 @@
-import { NAVIGATE_ABOUTPAGE, NAVIGATE_CONTACTPAGE, NAVIGATE_HOMEPAGE } from "./PageTypes";
+import { NAVIGATE_ABOUTPAGE, NAVIGATE_CONTACTPAGE, NAVIGATE_HOMEPAGE, NAVIGATE_SCHOOL } from "./PageTypes";
 
 export const navigateAboutPage=() => {
     return{
@@ -14,5 +14,11 @@ export const navigateContactPage=() => {
 export const navigateHomePage=() => {
     return{
         type:NAVIGATE_HOMEPAGE
+    }
+}
+
+export const navigateSchool=() => {
+    return{
+        type:NAVIGATE_SCHOOL
     }
 }

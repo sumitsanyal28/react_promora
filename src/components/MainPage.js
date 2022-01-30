@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import logo from './../logo.svg';
-import './../App.css';
+// {import logo from './../logo.svg';}
+
 
 import './../css/MainPage.css';
 import LandingPage from './LandingPage';
 import AboutPage from './AboutPage';
 import ContactPage from './ContactPage';
+import  School from './School';
 
-import { navigateContactPage, navigateAboutPage, navigateHomePage } from '../redux';
+import { navigateContactPage, navigateAboutPage, navigateHomePage, navigateSchool } from '../redux';
 import {connect} from 'react-redux'
 //import { render } from 'react-dom';
 
@@ -21,23 +22,35 @@ class MainPage extends Component{
     if(this.props.page==='LandingPage')
     {
       return (
-        <div><LandingPage />
+        <div>
+          <LandingPage />
 
         </div>
       );
     }else if(this.props.page==='AboutPage'){
       return(
-        <div><AboutPage />
+        <div>
+          <AboutPage />
 
         </div>
       )
     }else if(this.props.page==='ContactPage'){
       return(
-        <div><ContactPage />
+        <div>
+          <ContactPage />
 
         </div>
       )
-      }else{
+    }
+    else if(this.props.page==='School'){
+      return(
+        <div>
+          <School />
+
+        </div>
+      )
+    }
+    else{
       return(
         <div>No Page To Display</div>
       )
@@ -53,7 +66,8 @@ const mapDespatchToProps=dispatch=>{
   return{
     navigateHomePage:()=>dispatch(navigateHomePage()),
       navigateContactPage:()=> dispatch(navigateContactPage()),
-      navigateAboutPage:() => dispatch(navigateAboutPage())
+      navigateAboutPage:() => dispatch(navigateAboutPage()),
+      navigateSchool:() => dispatch(navigateSchool())
   }
 }
 

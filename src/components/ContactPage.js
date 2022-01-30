@@ -59,7 +59,7 @@ function ContactPage() {
 						<h2>Share Your Contact Details</h2>
 						<div class="formBox">
 							<div class="inputBox w50">
-								<input type="text" maxlength="25" color="blue" placeholder="First Name"  required >
+								<input type="text" maxlength="25"  placeholder="First Name"  required >
 								</input>
 							</div>
 							<div class="inputBox w50">
